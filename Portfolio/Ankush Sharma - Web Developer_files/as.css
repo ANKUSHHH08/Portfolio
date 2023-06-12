@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(108, 108, 108);
+    
+    width: 434px;
+    font-family: 'Merriweather', serif;
+    height: auto;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    padding: 20px 0;
+ font-size: 20px;  
+ list-style: none;
+}
+
+.sidebar nav li a{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    background-color:/* sandybrown*/;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocon{
+    /*background-color: rgb(217, 13, 57)*/;
+    width: 80vw;
+    height: 58vh;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro', monospace;
+}
+.infor{
+    padding: 100px;
+}
+.hello{
+font-size: 75px;
+
+}
+
+.name{
+font-size: 65px;
+font-weight: bold;
+font-family: 'Merriweather', serif;
+}
+
+.about{
+font-size: 40px;
+}
+
+.moreabout{
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button{
+padding: 12px 10px;
+border-radius: 20px;
+color: white;
+background-color: rgb(36, 11, 200);
+font-weight: bold;
+font-size: 20px;
+margin: 0 3px;
+cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+color: rgb(36, 11, 200);
+}
+
+.pic img{
+    height: 58vh;
+    align-content: end;
+}
+.infor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
